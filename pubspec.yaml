@@ -1,0 +1,21 @@
+name: bumper
+description: "CLI tool to bump your project versions"
+version: 0.0.1
+
+environment:
+  sdk: ^3.5.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cli_menu: ^0.4.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+executables:
+  bumper:
+    lib/bumper.dart
