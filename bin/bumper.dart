@@ -33,11 +33,14 @@ void main(List<String> args) {
     major++;
     minor = 0;
     patch = 0;
+    build++;
   } else if (type == 'minor') {
     minor++;
     patch = 0;
+    build++;
   } else if (type == 'patch') {
     patch++;
+    build++;
   } else if (type == 'build') {
     build++;
   } else {
