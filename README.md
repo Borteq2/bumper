@@ -1,6 +1,5 @@
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+- TODO description
 
 ## Features
 
@@ -15,12 +14,9 @@ know whether this package might be useful for them.
 - TODO
 
 ```dart
-dart run bumper.dart;
-const like = 'sample';
+- TODO
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+- TODO
