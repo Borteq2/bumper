@@ -1,6 +1,6 @@
 name: bumper
 description: "CLI tool to bump your project versions"
-version: 0.1.1
+version: 0.1.2
 homepage: https://github.com/Borteq2/bumper
 
 environment:
