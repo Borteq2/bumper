@@ -139,5 +139,5 @@ License
 This project is licensed under the MIT License. See the LICENSE for more details.
 Links
 
-    Pub.dev: https://pub.dev/packages/bumper
-    GitHub: https://github.com/Borteq2/bumper
+- Pub.dev: https://pub.dev/packages/bumper
+- GitHub: https://github.com/Borteq2/bumper
