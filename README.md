@@ -3,14 +3,15 @@
 bumper is a simple command-line tool (CLI) that automatically bumps the version of your project, including major, minor, patch, and build versions.
 ## Features
 
-    Automatically bumps versions in the pubspec.yaml file.
-    Supports major, minor, patch, and build version increments.
-    Interactive menu to choose the version type via terminal.
-    Color-coded output for better readability.
+- Automatically bumps versions in the pubspec.yaml file.
+- Supports major, minor, patch, and build version increments.
+- Interactive menu to choose the version type via terminal.
+- Color-coded output for better readability.
 
 ## Installation
 
 Add bumper to your project dependencies:
+
 ```
 dart pub add bumper
 ```
@@ -19,7 +20,7 @@ or
 
 ```
 dependencies:
-  bumper: ^0.1.1
+    bumper: ^0.1.1
 ```
 
 ## Usage
@@ -33,43 +34,59 @@ For example, we assume that current project version is `0.0.0+0`
 ---
 
 #### Major bump
-```dart run bumper major```
+```
+dart run bumper major
+```
 
 Output:
 
-```Bumped to: 1.0.0+1```
+```
+Bumped to: 1.0.0+1
+```
 
 ---
 
 #### Minor bump
 
 
-```dart run bumper minor```
+```
+dart run bumper minor
+```
 
 Output:
 
-```Bumped to: 0.1.0+1```
+```
+Bumped to: 0.1.0+1
+```
 
 ---
 
 #### Patch bump
 
 
-```dart run bumper patch```
+```
+dart run bumper patch
+```
 
 Output:
 
-```Bumped to: 0.0.1+1```
+```
+Bumped to: 0.0.1+1
+```
 
 ---
 
 #### Bump Build Version (without changing the app version):
 
-```dart run bumper patch```
+```
+dart run bumper patch
+```
 
 Output:
 
-```Bumped to: 0.0.0+1```
+```
+Bumped to: 0.0.0+1
+```
 
 ---
 
@@ -77,7 +94,9 @@ Output:
 
 If you run the command without any arguments, you will be presented with a menu:
 
-```dart run bumper```
+```
+dart run bumper
+```
 
 Menu options will be shown:
 
@@ -86,7 +105,9 @@ Menu options will be shown:
     - patch
     - build
 
-    Use the arrow keys to navigate and press Enter to select.
+Use the arrow keys to navigate and press Enter to select.
+
+
 
 Requirements
 
