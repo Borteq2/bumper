@@ -1,6 +1,6 @@
 name: bumper
-description: "CLI tool to bump your project versions"
-version: 0.1.3
+description: "CLI tool to bump your project versions. Use it with arguments or standalone (it will be interactive mode with arrow-type mode selection)."
+version: 0.1.4
 homepage: https://github.com/Borteq2/bumper
 
 environment:
@@ -19,3 +19,5 @@ dev_dependencies:
 
 executables:
   bumper: bumper
+
+example: example/main.dart
